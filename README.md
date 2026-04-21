@@ -42,6 +42,7 @@ This project documents my hands-on home lab where I am building and operating a 
 Cisco Catalyst 2960X-24TS-L initial hardware tests:
 
     | Test | Result | Observations |
+    |-----|-----|-----|
     | Physical Inspection | Very good | Ports -> Excellent -> no bent pins |
     | | | Case -> Good -> minor scratches and minor dents not impacting overall integrity |
     | | | Power socket -> Excellent -> firm and pins straight |
@@ -49,9 +50,9 @@ Cisco Catalyst 2960X-24TS-L initial hardware tests:
     | Power-on test | Excellent | LEDs flash briefly and System LED -> Excellent -> green |
     | | | Fan -> Excellent -> smooth sound no grinding or clicking |
     | Boot Process | Excellent | LEDs Stabilise, Switch is quiet, no continious reboot |
-    | Console access | TBA |
+    | Console access | TBA | TBA |
     | Port LED test | Excellent | All port LEDs light |
-    | Loopback test | TBA |
+    | Loopback test | TBA | TBA |
 
 ➡️ Result: Switch testing is still in progress
 
