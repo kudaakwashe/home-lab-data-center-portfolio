@@ -1,64 +1,80 @@
-# 🖧 Home Lab Data Center Portfolio
+# Lab Overview
 
-## 📌 Overview
+## 🎯 Objective
 
-This project documents my hands-on home lab where I am building and operating a small-scale data center environment using enterprise-grade hardware.
+The goal of this lab is to build a realistic, small-scale data center environment using enterprise-grade hardware.
 
-## 🎯 Objectives
+This lab is designed to develop practical skills in:
 
-* Learn Cisco switching (VLANs, ports, configuration)
-* Build structured cabling setup
-* Set up a rack for the equipment
-* Validate and test network hardware
-* Run virtualization workloads
-* Practice troubleshooting
+* Network configuration
+* Hardware validation
+* Structured cabling
+* Virtualization
+* Troubleshooting
 
 ---
 
-## 🧰 Lab Equipment
+## 🧱 Lab Design
 
-### Network
+This lab follows a simplified enterprise network structure:
 
-* Cisco Catalyst 2960X-24TS-L
-    [Documentation](https://www.cisco.com/c/en/us/td/docs/switches/lan/catalyst2960x/hardware/installation/guide/b_c2960x_hig.pdf)
+* Access layer (Cisco switch)
+* Structured cabling (patch panel)
+* Compute layer (mini PC running virtual machines)
 
-### Compute
+---
+
+## 🏗️ Architecture
+
+The lab is built around three core components:
+
+### 1. Network Layer
+
+* Cisco Catalyst 2960X switch
+* VLAN-based segmentation (planned)
+
+### 2. Compute Layer
 
 * Lenovo ThinkCentre M710q Tiny
-* 16GB RAM
-* 256GB SSD
-    [Documentation](https://download.lenovo.com/pccbbs/thinkcentre_pdf/m710q_10yc_ug_en.pdf)
+* Will host virtual machines using Proxmox
 
-### Infrastructure
+### 3. Physical Infrastructure
 
-* 4U 2-post rack with shelves
-* Patch panel
-* 25cm Cat6 cables
+* 2-post rack with shelves
+* Patch panel for structured cabling
+* Short patch cables for clean layout
 
 ---
 
-## 🧪 Hardware Validation
+## 🔄 Data Flow (Simplified)
 
-Cisco Catalyst 2960X-24TS-L initial hardware tests:
-
-    | Test | Result | Observations |
-    | Physical Inspection | Very good | Ports -> Excellent -> no bent pins |
-    | | | Case -> Good -> minor scratches and minor dents not impacting overall integrity |
-    | | | Power socket -> Excellent -> firm and pins straight |
-    | | | Fans -> Very good -> not blocked minimal dust on blades |
-    | Power-on test | Excellent | LEDs flash briefly and System LED -> Excellent -> green |
-    | | | Fan -> Excellent -> smooth sound no grinding or clicking |
-    | Boot Process | Excellent | LEDs Stabilise, Switch is quiet, no continious reboot |
-    | Console access | TBA |
-    | Port LED test | Excellent | All port LEDs light |
-    | Loopback test | TBA |
-
-➡️ Result: Switch testing is still in progress
+Devices connect through the patch panel into the switch, where traffic is segmented using VLANs and routed to services hosted on virtual machines.
 
 ---
 
-## 🚀 Status
+## 📈 Design Principles
 
-🟢 Hardware setup in progress
-🟡 Network configuration pending
-🔵 Virtualization setup pending
+This lab is built with the following principles:
+
+* **Simplicity** → Keep design easy to understand
+* **Realism** → Mirror real-world setups
+* **Scalability** → Allow future expansion
+* **Clean cabling** → Improve troubleshooting and visibility
+
+---
+
+## 🚀 Planned Enhancements
+
+* VLAN segmentation and isolation
+* Inter-VLAN routing
+* DHCP and DNS services
+* Monitoring and logging
+
+---
+
+## 🧠 Key Learning Goals
+
+* Understand how physical and logical networking interact
+* Gain hands-on experience with Cisco CLI
+* Practice troubleshooting real network issues
+* Learn how to document technical work effectively
