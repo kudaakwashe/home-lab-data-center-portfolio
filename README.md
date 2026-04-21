@@ -20,15 +20,15 @@ This project documents my hands-on home lab where I am building and operating a 
 ### Network
 
 * Cisco Catalyst 2960X-24TS-L
-    [Documentation](https://www.cisco.com/c/en/us/td/docs/switches/lan/catalyst2960x/hardware/installation/guide/b_c2960x_hig.pdf)
+* [Documentation](https://www.cisco.com/c/en/us/td/docs/switches/lan/catalyst2960x/hardware/installation/guide/b_c2960x_hig.pdf)
 
 ### Compute
 
-* Lenovo ThinkCentre M710q Tiny
+* Lenovo ThinkCentre M710q Tiny - 
 * 16GB RAM
 * 256GB SSD
-    [Documentation](https://download.lenovo.com/pccbbs/thinkcentre_pdf/m710q_10yc_ug_en.pdf)
-
+* [Documentation](https://download.lenovo.com/pccbbs/thinkcentre_pdf/m710q_10yc_ug_en.pdf)
+    
 ### Infrastructure
 
 * 4U 2-post rack with shelves
@@ -41,18 +41,18 @@ This project documents my hands-on home lab where I am building and operating a 
 
 Cisco Catalyst 2960X-24TS-L initial hardware tests:
 
-    | Test | Result | Observations |
-    |-----|-----|-----|
-    | Physical Inspection | Very good | Ports -> Excellent -> no bent pins |
-    | | | Case -> Good -> minor scratches and minor dents not impacting overall integrity |
-    | | | Power socket -> Excellent -> firm and pins straight |
-    | | | Fans -> Very good -> not blocked minimal dust on blades |
-    | Power-on test | Excellent | LEDs flash briefly and System LED -> Excellent -> green |
-    | | | Fan -> Excellent -> smooth sound no grinding or clicking |
-    | Boot Process | Excellent | LEDs Stabilise, Switch is quiet, no continious reboot |
-    | Console access | TBA | TBA |
-    | Port LED test | Excellent | All port LEDs light |
-    | Loopback test | TBA | TBA |
+| Test | Result | Observations |
+|------|--------|--------------|
+| Physical Inspection | Very good | Ports → Excellent → no bent pins |
+| Physical Inspection | Very good | Case → Good → minor scratches and dents (no impact) |
+| Physical Inspection | Very good | Power socket → Excellent → firm and straight |
+| Physical Inspection | Very good | Fans → Very good → not blocked, minimal dust |
+| Power-on test | Excellent | LEDs flash, system LED green |
+| Power-on test | Excellent | Fan smooth, no grinding or clicking |
+| Boot Process | Excellent | LEDs stable, quiet, no reboot loop |
+| Console access | TBA | TBA |
+| Port LED test | Excellent | All port LEDs active |
+| Loopback test | TBA | TBA |
 
 ➡️ Result: Switch testing is still in progress
 
