@@ -19,12 +19,20 @@ This project documents my hands-on home lab where I am building and operating a 
 
 ### Network
 
-* Cisco Catalyst 2960X-24TS-L
+**Cisco Catalyst 2960X-24TS-L**
+
+
+![Switch Front](assets/cisco-2960x-front.jpg)
+
 * [Documentation](https://www.cisco.com/c/en/us/td/docs/switches/lan/catalyst2960x/hardware/installation/guide/b_c2960x_hig.pdf)
 
 ### Compute
 
-* Lenovo ThinkCentre M710q Tiny 
+**Lenovo ThinkCentre M710q Tiny**
+
+![PC Front](assets/lenovo-m710q-front.jpg)
+
+Specs:
 * 16GB RAM
 * 256GB SSD
 * i5 7th Generation
@@ -41,9 +49,6 @@ This project documents my hands-on home lab where I am building and operating a 
 ## 🧪 Hardware Validation
 
 **Cisco Catalyst 2960X-24TS-L initial hardware tests.**
-
-
-![Switch Front](assets/cisco-2960x-front.jpg)
 
 
 | Test | Result | Observations |
@@ -64,9 +69,6 @@ This project documents my hands-on home lab where I am building and operating a 
 ---
 
 **Lenovo ThinkCentre M710q Tiny initial hardware tests.**
-
-
-![PC Front](assets/lenovo-m710q-front.jpg)
 
 
 | Test | Result | Observations |
