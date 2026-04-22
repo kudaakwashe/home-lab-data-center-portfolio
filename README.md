@@ -42,7 +42,9 @@ This project documents my hands-on home lab where I am building and operating a 
 
 **Cisco Catalyst 2960X-24TS-L initial hardware tests.**
 
-![Switch Front](https://raw.githubusercontent.com/kudaakwashe/home-lab-data-center-portfolio/main/assets/cisco-2960x-front.jpg)
+
+![Switch Front](assets/cisco-2960x-front.jpg)
+
 
 | Test | Result | Observations |
 |------|--------|--------------|
@@ -60,9 +62,12 @@ This project documents my hands-on home lab where I am building and operating a 
 ➡️ Result: Switch testing is still in progress
 
 
+
 **Lenovo ThinkCentre M710q Tiny initial hardware tests.**
 
-![PC Front](../assets/lenovo-m710q-front.jpg)
+
+![PC Front](assets/lenovo-m710q-front.jpg)
+
 
 | Test | Result | Observations |
 |------|--------|--------------|
