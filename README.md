@@ -61,7 +61,7 @@ This project documents my hands-on home lab where I am building and operating a 
 
 ➡️ Result: Switch testing is still in progress
 
-
+---
 
 **Lenovo ThinkCentre M710q Tiny initial hardware tests.**
 
