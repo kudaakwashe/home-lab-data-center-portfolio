@@ -26,6 +26,8 @@ This project documents my hands-on home lab where I am building and operating a 
 
 * [Documentation](https://www.cisco.com/c/en/us/td/docs/switches/lan/catalyst2960x/hardware/installation/guide/b_c2960x_hig.pdf)
 
+---
+
 ### Compute
 
 **Lenovo ThinkCentre M710q Tiny**
@@ -38,6 +40,8 @@ Specs:
 * i5 7th Generation
 * [Documentation](https://download.lenovo.com/pccbbs/thinkcentre_pdf/m710q_10yc_ug_en.pdf)
     
+---
+
 ### Infrastructure
 
 * 4U 2-post rack with shelves
