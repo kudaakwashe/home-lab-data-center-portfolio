@@ -42,7 +42,7 @@ This project documents my hands-on home lab where I am building and operating a 
 
 **Cisco Catalyst 2960X-24TS-L initial hardware tests.**
 
-![Switch Front](https://raw.githubusercontent.com/YOUR-USERNAME/home-lab-data-center-portfolio/main/assets/cisco-2960x-front.jpg)
+![Switch Front](https://raw.githubusercontent.com/kudaakwashe/home-lab-data-center-portfolio/main/assets/cisco-2960x-front.jpg)
 
 | Test | Result | Observations |
 |------|--------|--------------|
