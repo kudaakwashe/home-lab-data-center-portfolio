@@ -40,7 +40,8 @@ This project documents my hands-on home lab where I am building and operating a 
 
 ## 🧪 Hardware Validation
 
-Cisco Catalyst 2960X-24TS-L initial hardware tests:
+**Cisco Catalyst 2960X-24TS-L initial hardware tests.**
+![Switch Front](../assets/cisco-2960x-front.png)
 
 | Test | Result | Observations |
 |------|--------|--------------|
@@ -57,7 +58,10 @@ Cisco Catalyst 2960X-24TS-L initial hardware tests:
 
 ➡️ Result: Switch testing is still in progress
 
-Lenovo ThinkCentre M710q Tiny initial hardware tests.
+
+**Lenovo ThinkCentre M710q Tiny initial hardware tests.**
+
+![PC Front](../assets/lenovo-m710q-front.png)
 
 | Test | Result | Observations |
 |------|--------|--------------|
