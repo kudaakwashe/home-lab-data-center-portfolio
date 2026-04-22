@@ -41,7 +41,8 @@ This project documents my hands-on home lab where I am building and operating a 
 ## 🧪 Hardware Validation
 
 **Cisco Catalyst 2960X-24TS-L initial hardware tests.**
-![Switch Front](../assets/cisco-2960x-front.png)
+
+<img src="../assets/cisco-2960x-front.png" width="500">
 
 | Test | Result | Observations |
 |------|--------|--------------|
@@ -61,7 +62,7 @@ This project documents my hands-on home lab where I am building and operating a 
 
 **Lenovo ThinkCentre M710q Tiny initial hardware tests.**
 
-![PC Front](../assets/lenovo-m710q-front.png)
+<img src="../assets/lenovo-m710q-front.png" width="500">
 
 | Test | Result | Observations |
 |------|--------|--------------|
