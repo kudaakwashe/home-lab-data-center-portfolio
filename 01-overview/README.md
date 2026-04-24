@@ -8,7 +8,7 @@ The goal is to build practical skills relevant to data center technician, field 
 
 ---
 
-## Lab Objectives
+## 🔭 Lab Objectives
 
 - Validate and document enterprise hardware
 - Build a structured cabling setup using a patch panel
@@ -30,18 +30,13 @@ This lab is built with the following principles:
 - **Traceability** → Document every step clearly to improve troubleshooting and visibility
 - **Scalability** → Build small, testable sections before adding complexity
 
-### Core Components
+### Core Components and Architecture
 This lab follows a simplified enterprise network architecture, structured into key layers:
 
 #### Access Layer
 - Cisco Catalyst 2960X switch
 - Responsible for connecting end devices
 - Handles VLAN segmentation and port configuration
-
-#### Cabling Layer
-- Patch panel with structured Cat6 cabling
-- Implements T568B termination standard
-- Separates permanent cabling from switch connections
 
 #### Compute Layer
 - Lenovo ThinkCentre M710q Tiny
@@ -52,27 +47,13 @@ This lab follows a simplified enterprise network architecture, structured into k
 - Home router (with potential future upgrade to a dedicated router)
 - Provides default gateway, DHCP, and internet connectivity
 
----
+#### Cabling Layer
+- Patch panel with structured Cat6 cabling
+- Implements T568B termination standard
+- Separates permanent cabling from switch connections
 
-## 🏗️ Architecture
-
-The lab is built around three core components:
-
-### 1. Network Layer
-
-* Cisco Catalyst 2960X switch
-* VLAN-based segmentation (planned)
-
-### 2. Compute Layer
-
-* Lenovo ThinkCentre M710q Tiny
-* Will host virtual machines using Proxmox
-
-### 3. Physical Infrastructure
-
-* 4U 2-post rack with shelves
-* Patch panel for structured cabling
-* Short patch cables for clean layout
+#### Rack Component
+- 4U 2-post rack with shelves
 
 ---
 
