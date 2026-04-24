@@ -52,41 +52,41 @@ Specs:
 
 ## 🧪 Hardware Validation
 
-**Cisco Catalyst 2960X-24TS-L initial hardware tests.**
+### Cisco Catalyst 2960X-24TS-L Initial Hardware Tests.
 
 
 | Test | Result | Observations |
 |------|--------|--------------|
-| Physical Inspection | Very good | Ports → Excellent → no bent pins |
-| Physical Inspection | Very good | Case → Good → minor scratches and dents (no impact) |
-| Physical Inspection | Very good | Power socket → Excellent → firm and straight |
-| Physical Inspection | Very good | Fans → Very good → not blocked, minimal dust |
-| Power-on test | Excellent | LEDs flash, system LED green |
-| Power-on test | Excellent | Fan smooth, no grinding or clicking |
-| Boot Process | Excellent | LEDs stable, quiet, no reboot loop |
-| Console access | TBA | TBA |
-| Port LED test | Excellent | All port LEDs active |
-| Loopback test | TBA | TBA |
+| Physical Inspection | Very good | Ports: excellent, no bent pins |
+| Physical Inspection | Very good | Case: good, minor cosmetic wear only |
+| Physical Inspection | Very good | Power socket: Firm and straight |
+| Physical Inspection | Very good | Fans: not blocked, minimal dust |
+| Power-on test | Excellent | LEDs flash briefly, system LED turn green |
+| Power-on test | Excellent | Fan runs smooth, no grinding or clicking |
+| Boot Process | Excellent | LEDs stable, switch is quiet, no reboot loop |
+| Console access | TBA | Console cable working using PuTTY |
+| Port LED test | Excellent | All port LEDs light |
+| Loopback test | TBA | Pending loopback cable test |
 
-➡️ Result: Switch testing is still in progress
+➡️ **Result:** Switch testing is still in progress
 
 ---
 
-**Lenovo ThinkCentre M710q Tiny initial hardware tests.**
+### Lenovo ThinkCentre M710q Tiny Initial Hardware Tests
 
 
 | Test | Result | Observations |
 |------|--------|--------------|
-| Physical Inspection | Very good | Ports (USB, Ethernet) → Excellent → no physical damage |
-| Physical Inspection | Very good | Case → Very good → minor scratches and dents on front face |
-| Physical Inspection | Very good | Power socket → Excellent → firm and straight |
-| Physical Inspection | Very good | Wifi antenna → Missing → not required for this home lab |
-| Power-on test | Excellent | Power indicator green, Storage indicator green, Illuminated red dot on |
-| Power-on test | Excellent | Fan smooth, no grinding or clicking |
-| Boot Process | TBA | TBA |
-| BIOS Check | TBA | TBA |
+| Physical Inspection | Very good | Ports: USB and Ethernet ports show no physical damage |
+| Physical Inspection | Very good | Case: → minor cosmetic scratches only |
+| Physical Inspection | Very good | Power: socket is firm |
+| Physical Inspection | Very good | Wifi antenna: missing, not required for this wired lab |
+| Power-on test | Excellent | Power indicator green, Storage indicator green |
+| Power-on test | Excellent | Fan runs smoothly, no grinding or clicking |
+| Boot Process | Pass | Boots into Windows |
+| BIOS Check | TBA | Virtualization setting still to be confirmed |
 
-➡️ Result: PC testing is still in progress
+➡️ **Result:** mini PC testing is still in progress
 
 ---
 
