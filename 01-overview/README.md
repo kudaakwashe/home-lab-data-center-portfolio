@@ -57,7 +57,7 @@ This lab follows a simplified enterprise network architecture, structured into k
 
 ### High-Level Architecture
 
-![Architecture Diagram](../diagrams/network-architecture.png)
+![Architecture Diagram](../assets/network-architecture.png)
 
 ---
 
