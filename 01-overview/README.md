@@ -57,21 +57,7 @@ This lab follows a simplified enterprise network architecture, structured into k
 
 ### High-Level Architecture
 
-flowchart TD
-    Internet((Internet))
-    Router[Home Router<br/>Gateway / DHCP / Internet]
-    Switch[Cisco Catalyst 2960X-24TS-L<br/>Access Switch]
-    PatchPanel[24-Port Patch Panel<br/>Structured Cabling]
-    MiniPC[Lenovo ThinkCentre M710q<br/>Virtualization Host]
-    Laptop[Laptop / Admin Device]
-    Future[Future Lab Devices<br/>VMs / Test Clients]
-
-    Internet --> Router
-    Router --> Switch
-    Switch --> PatchPanel
-    PatchPanel --> MiniPC
-    PatchPanel --> Laptop
-    PatchPanel --> Future
+![Architecture Diagram](../diagrams/network-architecture.png)
 
 ---
 
