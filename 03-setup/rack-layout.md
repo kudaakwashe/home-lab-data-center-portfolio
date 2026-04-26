@@ -49,3 +49,12 @@ Switch
 
 - Patch panel = **passive termination point**  
 - Switch = **active network device** 
+
+
+---
+
+## 🔍 Observations
+
+- All devices securely mounted
+- Adequate spacing for airflow
+- Clean and accessible layout for maintenance
