@@ -24,13 +24,12 @@ This project documents my hands-on home lab where I am building and operating a 
 
 ![Switch Front](assets/cisco-2960x-front.jpg)
 
-* [Documentation](https://www.cisco.com/c/en/us/td/docs/switches/lan/catalyst2960x/hardware/installation/guide/b_c2960x_hig.pdf)
-
 
 
 ### Compute
 
 **Lenovo ThinkCentre M710q Tiny**
+
 
 ![PC Front](assets/lenovo-m710q-front.jpg)
 
