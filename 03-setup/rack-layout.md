@@ -35,17 +35,17 @@ This is the design of the rack layout.
 Data flows from end devices through structured cabling into the patch panel, and is then routed to the switch:
 
 
-Devices (Mini PC, Laptop)
-            ↓
-(cable)
-            ↓
-[Patch Panel - BACK]
-            ↓
-[Patch Panel - FRONT]
-            ↓
-(short patch cable)
-            ↓
-            Switch
+Devices (Mini PC, Laptop)<br>
+            ↓<br>
+(cable)<br>
+            ↓<br>
+[Patch Panel - BACK]<br>
+            ↓<br>
+[Patch Panel - FRONT]<br>
+            ↓<br>
+(short patch cable)<br>
+            ↓<br>
+Switch
 
 - Patch panel = **passive termination point**  
 - Switch = **active network device** 
