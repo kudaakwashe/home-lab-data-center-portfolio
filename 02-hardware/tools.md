@@ -15,7 +15,7 @@ This section lists the tools used to build, configure, and maintain the lab envi
 | Cable tester | Verifying cable integrity |
 
 
-![Cabling Toolset](../assets/cable-toolset.png) ![Punch Down Tool](../assets/punch-down-tool.png) 
+![Punch Down Tool](../assets/punch-down-tool.png) ![Cabling Toolset](../assets/cable-toolset.png) 
 
 
 ---
@@ -24,12 +24,15 @@ This section lists the tools used to build, configure, and maintain the lab envi
 
 | Tool | Purpose |
 |------|--------|
-| Electronics Toolkit | For electronics devices and circuit assembling and repair  |
+| Velcro Cable Ties | Used in cable management |
 | Label Maker | Creating cable labels |
+| Electronics Toolkit | For electronics devices and circuit assembling and repair  |
+| Socket & Bit Toolset | For screws and bolts |
 
-![Electronics Toolkit](../assets/electronics-toolkit.png)
 
-![Label Maker](../assets/label-maker.png)
+![Velcro Cable Ties](../assets/velcro-cable-ties.png) ![Label Maker](../assets/label-maker.png) ![Electronics Toolkit](../assets/electronics-toolkit.png) ![Socket & Bit Toolset](../assets/socket-bit-set.png)
+
+
 
 
 ---
