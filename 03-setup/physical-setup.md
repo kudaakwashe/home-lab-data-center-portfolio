@@ -25,11 +25,17 @@ This section documents how the hardware was physically installed and connected.
 
 ## 📸 Setup Images
 
-### 1. ![Rack Parts](../assets/rack-parts.png)
+### 1. Rack parts
+![Rack Parts](../assets/rack-parts.png)
 
-### 2. ![Rack Completed](../assets/rack-completed.png)
+### 2. Rack & shelves
+![Rack Completed](../assets/rack-complete.png)
 
-### 3. ![Rack & Devices](../assets/rack-and-devices.png)
+### 3. Completed rack
+![Rack Shelves](../assets/rack-and-shelves.png)
+
+### 4. Rack & devices
+![Rack & Devices](../assets/rack-and-devices.png)
 
 
 ---
