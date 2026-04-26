@@ -2,6 +2,7 @@
 
 This section lists the tools used to build, configure, and maintain the lab environment.
 
+
 ---
 
 ## 🔧 Cabling Tools
@@ -15,6 +16,20 @@ This section lists the tools used to build, configure, and maintain the lab envi
 
 
 ![Cabling Toolset](../assets/cable-toolset.png) ![Punch Down Tool](../assets/punch-down-tool.png) 
+
+
+---
+
+## 🔧 Other Tools & Accessories
+
+| Tool | Purpose |
+|------|--------|
+| Electronics Toolkit | For electronics devices and circuit assembling and repair  |
+| Label Maker | Creating cable labels |
+
+![Electronics Toolkit](../assets/electronics-toolkit.png)
+
+![Label Maker](../assets/label-maker.png)
 
 
 ---
