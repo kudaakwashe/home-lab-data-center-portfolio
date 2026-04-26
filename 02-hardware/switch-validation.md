@@ -2,6 +2,12 @@
 
 ![Switch Front](../assets/cisco-2960x-front.jpg)
 
+Specs:
+* Rack mountable
+* 24 x Ethernet 10/100/1000 Gigabit ports
+* Package Weight 9.19 kg
+* [Documentation](https://www.cisco.com/c/en/us/td/docs/switches/lan/catalyst2960x/hardware/installation/guide/b_c2960x_hig.pdf)
+
 
 ---
 
