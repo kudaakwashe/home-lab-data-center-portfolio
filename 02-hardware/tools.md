@@ -14,7 +14,7 @@ This section lists the tools used to build, configure, and maintain the lab envi
 | Cable tester | Verifying cable integrity |
 
 
-![Cabling Toolset](../assets/cabling-toolset.png) ![Punch Down Tool](../assets/punch-down-tool.png) 
+![Cabling Toolset](../assets/cable-toolset.png) ![Punch Down Tool](../assets/punch-down-tool.png) 
 
 
 ---
