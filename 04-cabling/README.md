@@ -2,14 +2,17 @@
 
 This section documents the implementation of structured cabling in the lab, including cable termination, patch panel usage, and connection mapping.
 
+
 ---
 
 ## 📁 Contents
 
 - Cable termination using T568B standard
 - Patch panel connections
+- Installing RJ45 connector 
 - Cable mapping between devices and switch
 - Cable testing and validation
+
 
 ---
 
