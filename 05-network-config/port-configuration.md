@@ -16,6 +16,7 @@ VLAN port assignment.
 
 ![VLAN Ports](../assets/port-configuration.png)
 
+
 ---
 
 📊 Result
