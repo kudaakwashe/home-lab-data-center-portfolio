@@ -6,6 +6,7 @@
 
 To verify that all cables are correctly terminated and functional.
 
+
 ---
 
 ## 🛠️ Tests Performed
@@ -16,17 +17,24 @@ To verify that all cables are correctly terminated and functional.
 | Connectivity test | Pass | Device reachable |
 | Stability test | Pass | No intermittent connection |
 
+
 ---
 
 ## 🔌 Test Setup
 
 Mini PC → Patch Panel → Switch
 
+
+---
+
 ## Observations
 
 * Stable connection established
 * No packet loss observed
 * Link lights consistent
+
+
+---
 
 ## Result
 
