@@ -37,6 +37,9 @@ This section documents how the hardware was physically installed and connected.
 ### 4. Rack & devices
 ![Rack & Devices](../assets/rack-and-devices.png)
 
+### 5. Final setup
+(*added after completing the cablingsection*)
+![Final Setup](../assets/final-setup.png)
 
 ---
 
