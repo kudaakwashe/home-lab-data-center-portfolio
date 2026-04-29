@@ -1,96 +1,154 @@
-# 🖧 Home Lab Data Center Portfolio
+# 🖥️ Home Lab Data Center Portfolio
 
 ## 📌 Overview
 
-This project documents my hands-on home lab where I am building and operating a small-scale data center environment using enterprise-grade hardware.
+This project demonstrates the design, build, and operation of a **home lab environment that simulates a real-world data center**.
 
-## 🎯 Objectives
+The lab focuses on:
 
-* Learn Cisco switching (VLANs, ports, configuration)
-* Build structured cabling setup
-* Set up a rack for the equipment
-* Validate and test network hardware
-* Run virtualization workloads
-* Practice troubleshooting
+* Networking fundamentals (VLANs, switching)
+* Infrastructure design (rack layout, cabling)
+* Virtualization (Proxmox)
+* Linux server deployment
+* Troubleshooting and operational practices
+* Safety and compliance awareness
+
 
 ---
 
-## 🧰 Lab Equipment
+## 🧱 Architecture Overview
 
-### Network
+Laptop → Switch → Proxmox Host → Virtual Machines
 
-**Cisco Catalyst 2960X-24TS-L**
+* Network: `192.168.10.0/24`
+* Proxmox: `192.168.10.50`
+* Ubuntu VM: `192.168.10.60`
 
-
-![Switch Front](assets/cisco-2960x-front.jpg)
-
-
-
-### Compute
-
-**Lenovo ThinkCentre M710q Tiny**
-
-
-![PC Front](assets/lenovo-m710q-front.jpg)
-
-Specs:
-* 16GB RAM
-* 256GB SSD
-* i5 7th Generation
-* [Documentation](https://download.lenovo.com/pccbbs/thinkcentre_pdf/m710q_10yc_ug_en.pdf)
-    
-
-
-### Infrastructure
-
-* 4U 2-post rack with shelves
-* Patch panel
-* 25cm Cat6 cables
 
 ---
 
-## 🧪 Hardware Validation
+## 📂 Project Structure
 
-### Cisco Catalyst 2960X-24TS-L Initial Hardware Tests.
+### 🔌 01 - Hardware
+
+* Equipment setup and validation
+* Rack installation and layout
 
 
-| Test | Result | Observations |
-|------|--------|--------------|
-| Physical Inspection | Very good | Ports: excellent, no bent pins |
-| Physical Inspection | Very good | Case: good, minor cosmetic wear only |
-| Physical Inspection | Very good | Power socket: Firm and straight |
-| Physical Inspection | Very good | Fans: not blocked, minimal dust |
-| Power-on test | Excellent | LEDs flash briefly, system LED turn green |
-| Power-on test | Excellent | Fan runs smooth, no grinding or clicking |
-| Boot Process | Excellent | LEDs stable, switch is quiet, no reboot loop |
-| Console access | TBA | Console cable working using PuTTY |
-| Port LED test | Excellent | All port LEDs light |
-| Loopback test | TBA | Pending loopback cable test |
+### 🧰 02 - Tools
 
-➡️ **Result:** Switch testing is still in progress
+* Tooling used for setup (crimping, testing, etc.)
+
+
+### 🧱 03 - Setup
+
+* Physical rack assembly
+* Cable flow design
+
+
+### 🔌 04 - Cabling
+
+* Patch panel wiring (T568B)
+* RJ45 termination
+* Cable management
+
+
+### 🌐 05 - Networking
+
+* Switch configuration
+* VLAN setup
+* Connectivity testing
+
+
+### 🖥️ 06 - Virtualization
+
+* Proxmox installation
+* VM creation and configuration
+* SSH access
+
+
+### 🔧 07 - Troubleshooting
+
+* Real-world issue scenarios
+* Layered troubleshooting approach
+* Evidence-based debugging
+
+
+### 🛡️ 08 - Safety & Compliance
+
+* Data center safety practices
+* Environmental considerations
+* Secure handling of systems and data
+
 
 ---
 
-### Lenovo ThinkCentre M710q Tiny Initial Hardware Tests
+## 🎯 Key Achievements
 
+* Built a structured home lab rack environment
+* Configured VLAN-based networking
+* Deployed Proxmox virtualization platform
+* Created and configured Linux virtual machines
+* Established SSH-based remote access
+* Documented real troubleshooting scenarios
 
-| Test | Result | Observations |
-|------|--------|--------------|
-| Physical Inspection | Very good | Ports: USB and Ethernet ports show no physical damage |
-| Physical Inspection | Very good | Case: → minor cosmetic scratches only |
-| Physical Inspection | Very good | Power: socket is firm |
-| Physical Inspection | Very good | Wifi antenna: missing, not required for this wired lab |
-| Power-on test | Excellent | Power indicator green, Storage indicator green |
-| Power-on test | Excellent | Fan runs smoothly, no grinding or clicking |
-| Boot Process | Pass | Boots into Windows |
-| BIOS Check | TBA | Virtualization setting still to be confirmed |
-
-➡️ **Result:** mini PC testing is still in progress
 
 ---
 
-## 🚀 Status
+## 🧠 Skills Demonstrated
 
-🟢 Hardware setup in progress
-🟡 Network configuration pending
-🔵 Virtualization setup pending
+* Networking (Layer 1–3)
+* Linux system administration
+* Virtualization (Proxmox)
+* Infrastructure design
+* Troubleshooting methodology
+* Documentation and operational discipline
+
+
+---
+
+## 🚀 Why This Matters
+
+Modern infrastructure environments rely heavily on:
+
+* Virtualization platforms like Proxmox
+* Network segmentation (VLANs)
+* Automation and troubleshooting
+
+Even small labs can replicate these principles and provide **hands-on experience equivalent to real data center environments** ([Virtualization Howto][1])
+
+
+---
+
+## ⚙️ Final Setup
+
+![Final Setup](assets/final-setup.png)
+
+
+---
+
+## 📡 Network Diagram
+
+![Network Diagram](assets/network-diagram-virtualisation.png)
+
+
+---
+
+## 🚀 Next Steps
+
+* Implement VLAN segmentation (VLAN 10 / VLAN 20)
+* Add Docker / container workloads
+* Introduce monitoring and logging
+* Simulate multi-VM environments
+
+
+---
+
+## 👤 Author
+
+**Kuda Nyikadzino**
+
+
+---
+
+[1]: https://www.virtualizationhowto.com/2026/01/the-smallest-home-lab-that-still-feels-like-a-real-datacenter/?utm_source=chatgpt.com "The Smallest Home Lab That Still Feels Like a Real ..."
