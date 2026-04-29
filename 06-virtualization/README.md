@@ -38,6 +38,19 @@ Laptop → Managed Switch → Proxmox Host → Virtual Machines
 
 ---
 
+## 📡 Network Design Notes
+
+- Flat Layer 2 network used for initial lab setup
+- Static IP addressing configured on VM
+- SSH used for remote administration
+- Designed for future VLAN segmentation (VLAN 10 / VLAN 20)
+- Trunking to be considered for future upgrades
+
+![Network Virtualisation](../assets/network-diagram-virtualisation.png)
+
+
+---
+
 ## ✅ Key Achievements
 
 - Successfully deployed Proxmox VE
@@ -53,4 +66,4 @@ Laptop → Managed Switch → Proxmox Host → Virtual Machines
 
 Validation done by ping command and ssh remote access to the Ubuntu VM (IP: 192.168.10.60) on the Proxmox host from laptop (IP: 192.168.10.30)
 
-![VLAN Ports](../assets/ubuntu-vm-ping-ssh.png)
+![Ubuntu VM](../assets/ubuntu-vm-ping-ssh.png)
