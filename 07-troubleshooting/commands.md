@@ -2,47 +2,47 @@
 
 ## 🌐 Networking
 
-ip a
-ip route
-ping <ip>
-traceroute <ip>
-ss -tulnp
+* ip a
+* ip route
+* ping <ip>
+* traceroute <ip>
+* ss -tulnp
 
 
 ---
 
 ## 🔌 Interface Checks
 
-ip link show
-sudo ip link set ens18 down
-sudo ip link set ens18 up
+* ip link show
+* sudo ip link set ens18 down
+* sudo ip link set ens18 up
 
 
 ---
 
 ## 🔐 SSH
 
-ssh user@ip
-ssh -v user@ip
-ssh-keygen -R <ip>
+* ssh user@ip
+* ssh -v user@ip
+* ssh-keygen -R <ip>
 
 
 ---
 
 ## 🖥️ System
 
-top
-df -h
-journalctl -xe
+* top
+* df -h
+* journalctl -xe
 
 
 ---
 
 ## 🧪 Proxmox
 
-qm list
-qm start <vmid>
-qm terminal <vmid>
+* qm list
+* qm start <vmid>
+* qm terminal <vmid>
 
 
 ---

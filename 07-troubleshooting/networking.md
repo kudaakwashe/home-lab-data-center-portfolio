@@ -4,8 +4,8 @@
 
 ### 🔍 Symptoms
 
-ping 192.168.10.1 → success
-ping 8.8.8.8 → fail
+* ping 192.168.10.1 → success
+* ping 8.8.8.8 → fail
 
 
 ### 🧠 Root Cause
@@ -15,9 +15,9 @@ ping 8.8.8.8 → fail
 
 ### ✅ Resolution
 
-ip route
+* ip route
 
-* Verified default gateway configuration
+    * Verified default gateway configuration
 
 
 ---
@@ -26,8 +26,8 @@ ip route
 
 ### 🔍 Symptoms
 
-ping 8.8.8.8 → works
-ping google.com → fails
+* ping 8.8.8.8 → works
+* ping google.com → fails
 
 
 ### 🧠 Root Cause
@@ -37,11 +37,11 @@ ping google.com → fails
 
 ### ✅ Resolution
 
-sudo nano /etc/resolv.conf
+* sudo nano /etc/resolv.conf
 
-Added:
+* Added:
 
-nameserver 8.8.8.8
+    * nameserver 8.8.8.8
 
 
 ---

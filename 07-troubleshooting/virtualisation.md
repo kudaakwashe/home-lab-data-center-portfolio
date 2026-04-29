@@ -4,7 +4,7 @@
 
 ### 🔍 Symptoms
 
-ip a → no IP
+* ip a → no IP
 
 
 ### 🧠 Root Cause
@@ -14,10 +14,10 @@ ip a → no IP
 
 ### ✅ Resolution
 
-Configured static IP:
+* Configured static IP:
 
-sudo nano /etc/netplan/*.yaml
-sudo netplan apply
+    * sudo nano /etc/netplan/*.yaml
+    * sudo netplan apply
 
 
 ---
@@ -45,7 +45,7 @@ sudo netplan apply
 
 ### 🔍 Symptoms
 
-Connection refused
+* Connection refused
 
 
 ### 🧠 Root Cause
@@ -55,8 +55,8 @@ Connection refused
 
 ### ✅ Resolution
 
-sudo apt install openssh-server
-sudo systemctl start ssh
+* sudo apt install openssh-server
+* sudo systemctl start ssh
 
 
 ---
@@ -65,7 +65,7 @@ sudo systemctl start ssh
 
 ### 🔍 Symptoms
 
-Host key verification failed
+* Host key verification failed
 
 
 ### 🧠 Root Cause
@@ -75,7 +75,7 @@ Host key verification failed
 
 ### ✅ Resolution
 
-ssh-keygen -R 192.168.10.60
+* ssh-keygen -R 192.168.10.60
 
 
 ---
