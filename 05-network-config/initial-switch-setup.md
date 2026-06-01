@@ -24,7 +24,7 @@ The basic commands for the initial configuration are shown below:
 * line console 0 - Enters configuration for the console port
 * logging synchronous - Prevents system messages from interupting while typing
 * end - Moves back to Priviledged EXEC mode
-* wrtie memory - Saves running-config to startup-config
+* write memory - Saves running-config to startup-config
 
 
 ---
