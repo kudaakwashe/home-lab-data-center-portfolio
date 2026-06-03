@@ -50,15 +50,15 @@ See full command reference:
 
 ### 🔌 Cabling Issues
 
-➡️ [`scenarios/cabling.md`](scenarios/cabling.md)
+➡️ [`cabling.md`](cabling.md)
 
 ### 🌐 Networking Issues
 
-➡️ [`scenarios/networking.md`](scenarios/networking.md)
+➡️ [`networking.md`](networking.md)
 
 ### 🖥️ Virtualisation Issues
 
-➡️ [`scenarios/virtualisation.md`](scenarios/virtualisation.md)
+➡️ [`virtualisation.md`](virtualisation.md)
 
 
 ---
